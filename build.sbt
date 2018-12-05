@@ -1,7 +1,7 @@
 import Dependencies._
 
-lazy val sparkBenchPath = "/ABSOLUTE/PATH/TO/YOUR/SPARK/BENCH/INSTALLATION/lib/"
-lazy val sparkVersion = "2.1.1"
+lazy val sparkBenchPath = "F:\\IdeaProject\\spark-bench_2.3.0_0.4.0-RELEASE\\lib"
+lazy val sparkVersion = "2.2.0"
 
 lazy val root = (project in file(".")).
   settings(
